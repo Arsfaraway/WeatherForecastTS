@@ -4,10 +4,16 @@ Welcome to WeatherForecastTS! This project is designed to retrieve weather infor
 
 ## Getting Started
 
+Before launching the application, run the following command to install dependencies:
+```bash
+npm i
+```
+
 To start the application, run the following command:
 ```bash
 npm start
 ```
+
 Alternatively, you can use Docker to work with the application:
 ```bash
 docker build -t weatherts .
