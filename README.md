@@ -27,8 +27,10 @@ Once the application is running, you can send requests and receive information u
 Send a GET request to the following endpoint to retrieve weather information for a specific city:
 ```bash
 http://localhost:3001/weatherForecast/cities/{city}
+http://localhost:3001/weatherForecast/xml/cities/{city}
+http://localhost:3001/weatherForecast/cities/{city1}/{city2}
 ```
-Make sure to replace {city} with the name of the city you want to retrieve weather information for.
+Make sure to replace {city} with the name of the city/cities you want to retrieve weather information for.
 
 
 ## Request Body
